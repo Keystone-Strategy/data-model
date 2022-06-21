@@ -13,12 +13,12 @@
   },
   "scripts": {
     "prebuild": "rm -rf dist/*",
-    "build": "yarn tsc --project tsconfig.dist.json --declaration",
+    "build": "tsc --project tsconfig.dist.json --declaration",
     "generate-schema-imports": "./tools/generate-schema-imports.sh",
     "test": "jest",
     "lint": "eslint src --ext .ts,.js",
     "format": "prettier --write '**/*.{ts,js,json,md}'",
-    "prepack": "yarn build",
+    "prepack": "build",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -38,6 +38,6 @@
     "prettier": "^2.2.1",
     "ts-jest": "^26.5.4",
     "ts-node": "^9.1.1",
-    "typescript": "^4.2.4"
+    "typescript": "4.6.2"
   }
 }
