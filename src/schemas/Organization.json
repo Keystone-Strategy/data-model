@@ -8,36 +8,12 @@
       "$ref": "#Entity"
     },
     {
-      "properties": {
-        "_type": {
-          "description": "The type of organization (within the context of the primary organization).",
-          "type": "string",
-          "examples": [
-            "company",
-            "department",
-            "business-unit",
-            "subsidiary",
-            "government-agency",
-            "partner",
-            "other"
-          ]
-        },
-        "website": {
-          "description": "The organization's main website URL.",
-          "type": "string",
-          "format": "uri"
-        },
-        "emailDomain": {
+      "properties": {        
+        "name": {
           "description": "The domain name for internal organization email addresses.",
           "type": "string"
-        },
-        "external": {
-          "description": "Indicates if this organization is external",
-          "type": "boolean"
         }
-      },
-      "required": [],
-      "excludes": ["status", "public", "temporary", "expiresOn"]
+      }
     }
   ]
 }
