@@ -151,10 +151,6 @@ import QuestionJson from './schemas/Question.json';
 export const Question = QuestionJson;
 IntegrationSchema.addSchema(Question);
 
-import ProjectJson from './schemas/Project.json';
-export const Project = ProjectJson;
-IntegrationSchema.addSchema(Project);
-
 import ProgramJson from './schemas/Program.json';
 export const Program = ProgramJson;
 IntegrationSchema.addSchema(Program);
@@ -190,10 +186,6 @@ IntegrationSchema.addSchema(PasswordPolicy);
 import PRJson from './schemas/PR.json';
 export const PR = PRJson;
 IntegrationSchema.addSchema(PR);
-
-import OrganizationJson from './schemas/Organization.json';
-export const Organization = OrganizationJson;
-IntegrationSchema.addSchema(Organization);
 
 import NetworkInterfaceJson from './schemas/NetworkInterface.json';
 export const NetworkInterface = NetworkInterfaceJson;
@@ -290,10 +282,6 @@ IntegrationSchema.addSchema(DomainZone);
 import DomainRecordJson from './schemas/DomainRecord.json';
 export const DomainRecord = DomainRecordJson;
 IntegrationSchema.addSchema(DomainRecord);
-
-import DomainJson from './schemas/Domain.json';
-export const Domain = DomainJson;
-IntegrationSchema.addSchema(Domain);
 
 import DocumentJson from './schemas/Document.json';
 export const Document = DocumentJson;
@@ -423,3 +411,30 @@ import AccessKeyJson from './schemas/AccessKey.json';
 export const AccessKey = AccessKeyJson;
 IntegrationSchema.addSchema(AccessKey);
 
+import MessagesJson from './schemas/Message.json'
+export const Message = MessagesJson
+IntegrationSchema.addSchema(Message)
+
+import EmailAddressJson from './schemas/EmailAddress.json'
+export const EmailAddress = EmailAddressJson
+IntegrationSchema.addSchema(EmailAddress)
+
+import DomainJson from './schemas/Domain.json'
+export const Domain = DomainJson
+IntegrationSchema.addSchema(Domain)
+
+import AttachmentJson from './schemas/Attachment.json'
+export const Attachment = AttachmentJson
+IntegrationSchema.addSchema(Attachment)
+
+import OrganizationJson from './schemas/Organization.json'
+export const Organization_ = OrganizationJson
+IntegrationSchema.addSchema(OrganizationJson)
+
+import ProjectJson_ from './schemas/Project.json'
+export const Project_ = ProjectJson_
+IntegrationSchema.addSchema(Project_)
+
+import Conversation_Json from './schemas/Conversation.json'
+export const Conversation = Conversation_Json
+IntegrationSchema.addSchema(Conversation)

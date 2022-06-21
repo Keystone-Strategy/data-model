@@ -1,7 +1,7 @@
 import { IntegrationEntitySchema, IntegrationSchema } from '.';
 
-export function getSchema(_class: string): IntegrationEntitySchema | undefined {
-  const validate = IntegrationSchema.getSchema("#" + _class);
+export function getSchema(_type: string): IntegrationEntitySchema | undefined {
+  const validate = IntegrationSchema.getSchema("#" + _type);
   if (!validate) {
     return undefined;
   }

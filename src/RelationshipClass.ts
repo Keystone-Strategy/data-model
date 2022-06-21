@@ -255,4 +255,11 @@ export enum RelationshipClass {
    * - Problem - VIOLATES -> Control
    */
   VIOLATES = 'VIOLATES',
+
+
+  SENT_TO = 'SENT_TO',
+  SENT_FROM = 'SENT_FROM',
+  CC_TO = 'CC_TO',
+  BELONGS_TO = 'BELONGS_TO',
+  ASSOCIATED_WITH = 'ASSOCIATED_WITH'
 }
