@@ -1,5 +1,5 @@
 {
-  "name": "@jupiterone/data-model",
+  "name": "@keystone-labs/data-model",
   "version": "0.44.0",
   "main": "dist/index.js",
   "files": [
