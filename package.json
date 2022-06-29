@@ -1,6 +1,6 @@
 {
   "name": "@keystone-labs/data-model",
-  "version": "0.44.0",
+  "version": "0.44.0-k-1.0.0",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -18,7 +18,7 @@
     "test": "jest",
     "lint": "eslint src --ext .ts,.js",
     "format": "prettier --write '**/*.{ts,js,json,md}'",
-    "prepack": "build",
+    "prepack": "yarn build",
     "prepare": "husky install"
   },
   "dependencies": {
