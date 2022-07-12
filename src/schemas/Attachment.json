@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "#Attachment",
+    "description": "",
+    "type": "object",
+    "allOf": [
+      { "$ref": "#Entity" },
+      {
+        "properties": {
+          "name": {
+            "description": "Attachment name",
+            "type": "string"
+          },
+          "contentType:": {
+            "description": "Content Type",
+            "type": "string"
+          },
+          "size": {
+            "description": "Size in bytes",
+            "type": "number"
+          },
+          "isInline": {
+            "description": "If it is inline",
+            "type": "boolean"
+          },
+          "lastModifiedDateTime": {
+            "description": "Last Modified Date",
+            "type": "string"
+          }
+        },
+        "required": []
+      }
+    ]
+  }
+  
