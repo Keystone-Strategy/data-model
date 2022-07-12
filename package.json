@@ -1,6 +1,6 @@
 {
-  "name": "@jupiterone/data-model",
-  "version": "0.44.0",
+  "name": "@keystone-labs/data-model",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "files": [
     "dist"
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "prebuild": "rm -rf dist/*",
-    "build": "yarn tsc --project tsconfig.dist.json --declaration",
+    "build": "tsc --project tsconfig.dist.json --declaration",
     "generate-schema-imports": "./tools/generate-schema-imports.sh",
     "test": "jest",
     "lint": "eslint src --ext .ts,.js",
@@ -38,6 +38,6 @@
     "prettier": "^2.2.1",
     "ts-jest": "^26.5.4",
     "ts-node": "^9.1.1",
-    "typescript": "^4.2.4"
+    "typescript": "4.6.2"
   }
 }
