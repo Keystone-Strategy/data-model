@@ -199,9 +199,9 @@ export enum RelationshipClass {
 
   /**
    * A relationships indicating an Entity sends something to another Entity
-   * 
-   * Examples: 
-   * 
+   *
+   * Examples:
+   *
    * Queue - SENDS -> Queue
    */
   SENDS = 'SENDS',
@@ -256,10 +256,10 @@ export enum RelationshipClass {
    */
   VIOLATES = 'VIOLATES',
 
-
   SENT_TO = 'SENT_TO',
   SENT_FROM = 'SENT_FROM',
   CC_TO = 'CC_TO',
   BELONGS_TO = 'BELONGS_TO',
-  ASSOCIATED_WITH = 'ASSOCIATED_WITH'
+  ASSOCIATED_WITH = 'ASSOCIATED_WITH',
+  ASSIGNED_TO = 'ASSIGNED_TO',
 }
